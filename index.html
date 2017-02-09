@@ -1,48 +1,55 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
   <html>
-    <head>
-      <!--Import Google Icon Font-->
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <!-- Compiled and minified CSS -->
-  	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
-  	  
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
 
-      <!--Let browser know website is optimized for mobile-->
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
 
-    <body>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
     <nav>
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo center">gcetloop: the FOSS community of Galgotias</a>
-    </div>
-    </nav>
-    <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <br><br>
-        <h1 class="header center teal-text text-lighten-2">Introduction to Git & Github.</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">A hands-on workshop on Git & Github to make you ready for Open Source World!!</h5>
+      <div class="nav-wrapper teal lighten-2">
+        <div class="container">
+          <a href="#" class="brand-logo">gcetloop</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#team">Team</a></li>
+          </ul>
         </div>
-        <div class="row center">
-          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-        </div>
-        <br><br>
-
       </div>
-    </div>
-    <div class="parallax"><img src="images/git.jpg" alt="git-image"></div>
-  </div>
+    </nav>
+    <section id="events">
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col s6">
+            <h4>Introduction to Git & Github</h4>
+            <p>A hands-on workshop on Git & Github to make you ready for Open Source!!</p>
+            <a class="waves-effect waves-light btn">Register Now</a>&nbsp;&nbsp;&nbsp;&nbsp;<a class="waves-effect waves-light btn">Tutorial</a>
+          </div>
+          <div class="col s6">
+            <img class="responsive-img" src="images/Git.png">
+          </div>
+        </div>
+      </div>
+    </section>
 
 
 
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 
-      <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <!-- Compiled and minified JavaScript -->
-  	  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
-  	  
-      
-    </body>
+  </body>
   </html>
